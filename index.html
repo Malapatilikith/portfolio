@@ -1,0 +1,737 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Malapati Likith | AI & Data Science Engineer Portfolio</title>
+  <meta name="description" content="Portfolio of Malapati Likith, Artificial Intelligence and Data Science undergraduate specializing in Machine Learning, Deep Learning, NLP, and Full-Stack Software Development.">
+  <meta name="keywords" content="Malapati Likith, AI Engineer, Machine Learning, Data Science, Python, FastAPI, TensorFlow, OpenCV, Deep Learning, Portfolio">
+  <meta name="author" content="Malapati Likith">
+
+  <!-- OpenGraph / Social Previews -->
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Malapati Likith | AI & Data Science Engineer">
+  <meta property="og:description" content="Explore ML projects, deep learning architectures, certifications, and software engineering portfolio of Malapati Likith.">
+  <meta property="og:url" content="https://malapatilikith.github.io/portfolio">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🚀</text></svg>">
+
+  <!-- Google Fonts: Inter & JetBrains Mono -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Ambient Glowing Background Orbs -->
+  <div class="bg-glow">
+    <div class="glow-orb orb-1"></div>
+    <div class="glow-orb orb-2"></div>
+    <div class="glow-orb orb-3"></div>
+  </div>
+
+  <!-- =========================================================================
+       NAVIGATION BAR
+       ========================================================================= -->
+  <header class="navbar" id="navbar">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo">
+        <div class="logo-icon">ML</div>
+        <span>Likith<span class="gradient-text">.AI</span></span>
+      </a>
+
+      <nav>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <!-- Theme Switcher -->
+        <button id="theme-toggle" class="theme-btn" aria-label="Toggle dark/light theme" title="Toggle theme">
+          <svg xmlns="http://www.w3.org/2000/svg" width="19" height="19" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+          </svg>
+        </button>
+
+        <!-- Resume CTA -->
+        <a href="#contact" class="btn btn-primary btn-sm">Hire Me</a>
+
+        <!-- Mobile Menu Hamburger -->
+        <button class="mobile-toggle" id="mobile-toggle" aria-label="Toggle navigation menu">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="3" y1="12" x2="21" y2="12"></line>
+            <line x1="3" y1="6" x2="21" y2="6"></line>
+            <line x1="3" y1="18" x2="21" y2="18"></line>
+          </svg>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- =========================================================================
+       HERO SECTION
+       ========================================================================= -->
+  <section class="hero" id="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <div class="status-pill">
+          <span class="pulse-dot"></span>
+          <span>Available for AI, ML & Software Roles</span>
+        </div>
+
+        <h1 class="hero-title">
+          Hi, I'm <br>
+          <span class="gradient-text">Malapati Likith</span>
+        </h1>
+
+        <div class="hero-typewriter">
+          <span id="typewriter-text"></span><span class="typewriter-cursor"></span>
+        </div>
+
+        <p class="hero-description">
+          Artificial Intelligence and Data Science undergraduate with strong technical skills in Java, Python, Machine Learning, and Natural Language Processing. Dedicated to developing production-grade machine learning models and high-performance software systems.
+        </p>
+
+        <div class="hero-cta">
+          <a href="#projects" class="btn btn-primary">
+            <span>Explore Projects</span>
+            <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+          </a>
+          <a href="#contact" class="btn btn-secondary">
+            <span>Get in Touch</span>
+          </a>
+          <a href="https://stock-price-prediction-p57c.onrender.com" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+            <span>⚡ Live ML App</span>
+          </a>
+        </div>
+
+        <div class="hero-socials">
+          <a href="https://github.com/Malapatilikith" target="_blank" rel="noopener noreferrer" class="social-link" title="GitHub Profile" aria-label="GitHub Profile">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+          </a>
+          <a href="mailto:likithmalapati@gmail.com" class="social-link" title="Email Likith" aria-label="Email Likith">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg>
+          </a>
+          <a href="tel:+919441649333" class="social-link" title="Call Likith" aria-label="Call Likith">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path></svg>
+          </a>
+        </div>
+      </div>
+
+      <!-- Hero Visual with Interactive Photo Avatar -->
+      <div class="hero-visual">
+        <div class="avatar-wrapper">
+          <div class="avatar-inner">
+            <img id="avatar-img" src="assets/avatar-placeholder.svg" alt="Malapati Likith" class="avatar-img">
+          </div>
+          <!-- Photo change trigger button -->
+          <button id="photo-change-trigger" class="photo-change-trigger" title="Upload or change profile photo" aria-label="Change photo">
+            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z"></path><circle cx="12" cy="13" r="4"></circle></svg>
+          </button>
+        </div>
+
+        <button id="photo-badge-hint" class="photo-badge-hint" title="Click to add your photo">
+          <span>📷 Add / Change Photo</span>
+        </button>
+
+        <!-- Floating Decorative Badges -->
+        <div class="floating-chip chip-1">
+          <span>⚡</span>
+          <span>FastAPI & Python</span>
+        </div>
+        <div class="floating-chip chip-2">
+          <span>🧠</span>
+          <span>TensorFlow & Keras</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       STATISTICS SECTION
+       ========================================================================= -->
+  <section class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">8.54</div>
+          <div class="stat-label">Cumulative B.Tech GPA</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">24,000+</div>
+          <div class="stat-label">Images Trained in Deep CNN</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">3+</div>
+          <div class="stat-label">Industry Certifications</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">100%</div>
+          <div class="stat-label">Cloud Deployed ML Pipelines</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       ABOUT SECTION
+       ========================================================================= -->
+  <section class="about" id="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Background</span>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">Bridging Machine Learning theory with production-ready software solutions.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <p>
+            I am <strong>Malapati Likith</strong>, an Artificial Intelligence and Data Science undergraduate based in Hyderabad. My core passion lies at the intersection of machine learning, neural networks, and robust full-stack software development.
+          </p>
+          <p>
+            With hands-on experience developing predictive machine learning models, deploying FastAPI backends to cloud environments, and implementing computer vision pipelines using TensorFlow, Keras, and OpenCV, I thrive on turning complex data challenges into intuitive, scalable products.
+          </p>
+
+          <div class="about-features">
+            <div class="about-feature-box">
+              <span class="feature-icon">🤖</span>
+              <h3 class="feature-title">AI & Deep Learning</h3>
+              <p class="feature-desc">CNN architectures, NLP processing, model training, evaluation, and LLM implementations.</p>
+            </div>
+            <div class="about-feature-box">
+              <span class="feature-icon">🚀</span>
+              <h3 class="feature-title">Full-Stack Development</h3>
+              <p class="feature-desc">High-speed RESTful APIs with FastAPI, Springboot, Core Java, and responsive modern web interfaces.</p>
+            </div>
+            <div class="about-feature-box">
+              <span class="feature-icon">📊</span>
+              <h3 class="feature-title">Data Science & EDA</h3>
+              <p class="feature-desc">Feature engineering, data cleaning, processing pipelines, and data visualization using Pandas & NumPy.</p>
+            </div>
+            <div class="about-feature-box">
+              <span class="feature-icon">⚙️</span>
+              <h3 class="feature-title">Automation & Cloud</h3>
+              <p class="feature-desc">Cloud deployment, automated workflow engineering with N8N, and robust version control with Git.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-code-card">
+          <div class="code-header">
+            <span class="code-dot red"></span>
+            <span class="code-dot yellow"></span>
+            <span class="code-dot green"></span>
+            <span class="code-filename">likith_profile.py</span>
+          </div>
+          <div class="code-content">
+            <p><span class="code-key">class</span> <span class="code-str">MLEngineer</span>:</p>
+            <p>&nbsp;&nbsp;<span class="code-key">def</span> <span class="code-str">__init__</span>(self):</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;self.name = <span class="code-str">"Malapati Likith"</span></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;self.education = <span class="code-str">"B.Tech in AI & Data Science"</span></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;self.gpa = <span class="code-num">8.54</span></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;self.location = <span class="code-str">"Hyderabad, India"</span></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;self.focus_areas = [</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-str">"Supervised Learning"</span>,</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-str">"Deep Learning (CNNs)"</span>,</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-str">"NLP & LLMs"</span>,</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-str">"Cloud Microservices"</span></p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;]</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;self.open_to_work = <span class="code-bool">True</span></p>
+            <br>
+            <p>&nbsp;&nbsp;<span class="code-key">def</span> <span class="code-str">mission</span>(self):</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;<span class="code-key">return</span> <span class="code-str">"Build scalable AI solutions that create tangible real-world impact."</span></p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       SKILLS SECTION
+       ========================================================================= -->
+  <section class="skills" id="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Capabilities</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">A comprehensive toolkit spanning Artificial Intelligence, Software Engineering, and Cloud Technologies.</p>
+      </div>
+
+      <!-- Skills Category Filter Tabs -->
+      <div class="skills-tabs">
+        <button class="skill-tab-btn active" data-filter="all">All Skills</button>
+        <button class="skill-tab-btn" data-filter="ml">Machine Learning & AI</button>
+        <button class="skill-tab-btn" data-filter="prog">Programming</button>
+        <button class="skill-tab-btn" data-filter="libraries">Libraries & Frameworks</button>
+        <button class="skill-tab-btn" data-filter="web">Web & Backend</button>
+        <button class="skill-tab-btn" data-filter="db">Databases & Cloud</button>
+        <button class="skill-tab-btn" data-filter="tools">Tools & Automation</button>
+      </div>
+
+      <!-- Skills Grid -->
+      <div class="skills-grid">
+        <!-- Programming -->
+        <div class="skill-category-card" data-category="prog">
+          <div class="category-header">
+            <div class="category-icon">💻</div>
+            <h3 class="category-title">Programming Languages</h3>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-chip">🐍 Python</span>
+            <span class="skill-chip">☕ Java (Core & Advanced)</span>
+            <span class="skill-chip">⚡ C Programming</span>
+            <span class="skill-chip">🌐 JavaScript</span>
+          </div>
+        </div>
+
+        <!-- Machine Learning & AI -->
+        <div class="skill-category-card" data-category="ml">
+          <div class="category-header">
+            <div class="category-icon">🧠</div>
+            <h3 class="category-title">Machine Learning & AI</h3>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-chip">Supervised Learning</span>
+            <span class="skill-chip">Deep Learning</span>
+            <span class="skill-chip">Natural Language Processing (NLP)</span>
+            <span class="skill-chip">Large Language Models (LLM)</span>
+            <span class="skill-chip">Model Training & Fine-Tuning</span>
+            <span class="skill-chip">Model Evaluation & Metrics (MAE)</span>
+            <span class="skill-chip">Computer Vision</span>
+          </div>
+        </div>
+
+        <!-- Libraries -->
+        <div class="skill-category-card" data-category="libraries">
+          <div class="category-header">
+            <div class="category-icon">📚</div>
+            <h3 class="category-title">Data & ML Libraries</h3>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-chip">TensorFlow</span>
+            <span class="skill-chip">Keras</span>
+            <span class="skill-chip">Scikit-learn</span>
+            <span class="skill-chip">NumPy</span>
+            <span class="skill-chip">Pandas</span>
+            <span class="skill-chip">Matplotlib</span>
+            <span class="skill-chip">spaCy</span>
+            <span class="skill-chip">NLTK</span>
+          </div>
+        </div>
+
+        <!-- Web & Backend -->
+        <div class="skill-category-card" data-category="web">
+          <div class="category-header">
+            <div class="category-icon">🌐</div>
+            <h3 class="category-title">Web & Backend Technologies</h3>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-chip">FastAPI</span>
+            <span class="skill-chip">Springboot</span>
+            <span class="skill-chip">REST APIs</span>
+            <span class="skill-chip">Servlets & JSP</span>
+            <span class="skill-chip">HTML5</span>
+            <span class="skill-chip">CSS3</span>
+            <span class="skill-chip">Core Java</span>
+          </div>
+        </div>
+
+        <!-- Databases & Cloud -->
+        <div class="skill-category-card" data-category="db">
+          <div class="category-header">
+            <div class="category-icon">🗄️</div>
+            <h3 class="category-title">Databases & Cloud</h3>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-chip">MySQL</span>
+            <span class="skill-chip">MongoDB</span>
+            <span class="skill-chip">Big Data Fundamentals</span>
+            <span class="skill-chip">Cloud Deployment (Render)</span>
+            <span class="skill-chip">AWS AI Services</span>
+          </div>
+        </div>
+
+        <!-- Tools & Automation -->
+        <div class="skill-category-card" data-category="tools">
+          <div class="category-header">
+            <div class="category-icon">🛠️</div>
+            <h3 class="category-title">Tools & Automation</h3>
+          </div>
+          <div class="skill-badges">
+            <span class="skill-chip">Git</span>
+            <span class="skill-chip">GitHub Workflows</span>
+            <span class="skill-chip">N8N Workflow Automation</span>
+            <span class="skill-chip">Exploratory Data Analysis (EDA)</span>
+            <span class="skill-chip">Data Cleaning & Preprocessing</span>
+            <span class="skill-chip">Data Visualization</span>
+            <span class="skill-chip">OpenCV</span>
+            <span class="skill-chip">Java Swing</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       PROJECTS SECTION
+       ========================================================================= -->
+  <section class="projects" id="projects">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Portfolio</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Real-world AI/ML applications engineered for accuracy, responsiveness, and scale.</p>
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1: Stock Price Prediction -->
+        <div class="project-card">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-banner-icon">📈</div>
+            <span class="live-badge">
+              <span class="pulse-dot"></span>
+              Live On Cloud
+            </span>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Stock Price Prediction with ML</h3>
+            <p class="project-desc">
+              Built and deployed a full-stack machine learning web application to predict next-day closing prices of NSE-listed stocks using historical market data. Implemented a Linear Regression model with feature engineering and evaluated performance using Mean Absolute Error (MAE). Developed a high-speed FastAPI backend with an intuitive frontend, integrating live stock market data and financial news APIs.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">Scikit-learn</span>
+              <span class="tag">FastAPI</span>
+              <span class="tag">Pandas</span>
+              <span class="tag">Linear Regression</span>
+              <span class="tag">Cloud Deployment</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://stock-price-prediction-p57c.onrender.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-sm">
+                <span>View Live Web App</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path><polyline points="15 3 21 3 21 9"></polyline><line x1="10" y1="14" x2="21" y2="3"></line></svg>
+              </a>
+              <a href="https://github.com/Malapatilikith" target="_blank" rel="noopener noreferrer" class="project-link">
+                <span>GitHub</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="7" y1="17" x2="17" y2="7"></line><polyline points="7 7 17 7 17 17"></polyline></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2: Breast Cancer Detection -->
+        <div class="project-card">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-banner-icon">🔬</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Breast Cancer Detection using MobileNetV2</h3>
+            <p class="project-desc">
+              Developed a deep learning model utilizing the MobileNetV2 convolutional neural network architecture for classifying histopathological image datasets. Trained the neural network on a massive dataset of 24,000+ images and optimized classification accuracy using data augmentation techniques. Implemented rigorous model evaluation and deployment strategies for practical medical imaging usage.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">TensorFlow</span>
+              <span class="tag">Keras</span>
+              <span class="tag">MobileNetV2</span>
+              <span class="tag">Data Augmentation</span>
+              <span class="tag">Deep Learning</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Malapatilikith" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <span>GitHub Repository</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 3: Face Detection Attendance -->
+        <div class="project-card">
+          <div class="project-banner">
+            <div class="project-banner-pattern"></div>
+            <div class="project-banner-icon">👤</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">Face Detection for Marking Attendance</h3>
+            <p class="project-desc">
+              Created an automated attendance tracking system powered by computer vision. Built using Python and OpenCV modules by training face detection and recognition algorithms to identify individuals under varying lighting, angles, and camera conditions. Enables instantaneous, hands-free attendance logging by scanning user faces.
+            </p>
+            <div class="project-tags">
+              <span class="tag">Python</span>
+              <span class="tag">OpenCV</span>
+              <span class="tag">Computer Vision</span>
+              <span class="tag">Automation</span>
+              <span class="tag">Face Recognition</span>
+            </div>
+            <div class="project-footer">
+              <a href="https://github.com/Malapatilikith" target="_blank" rel="noopener noreferrer" class="btn btn-secondary btn-sm">
+                <span>GitHub Repository</span>
+                <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path></svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CERTIFICATIONS & EDUCATION SECTION
+       ========================================================================= -->
+  <section class="certifications" id="certifications">
+    <div class="container">
+      <div class="timeline-grid">
+        <!-- Certifications Column -->
+        <div>
+          <h2 class="timeline-column-title">
+            <span>🏆</span>
+            Certifications
+          </h2>
+          <div class="timeline-list">
+            <!-- AWS AI Practitioner -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="timeline-date">April 2026</span>
+                <h3 class="timeline-title">AWS Certified AI Practitioner</h3>
+                <div class="timeline-subtitle">Amazon Web Services</div>
+                <p class="timeline-desc">
+                  Certified in AWS AI/ML cloud services, scalable cloud-based AI solutions, architecture design, and responsible AI implementation.
+                </p>
+              </div>
+            </div>
+
+            <!-- Advanced Automation -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="timeline-date">November 2025</span>
+                <h3 class="timeline-title">Advanced Automation Certification</h3>
+                <div class="timeline-subtitle">Workflow & Process Automation</div>
+                <p class="timeline-desc">
+                  Certified in designing, orchestrating, and deploying automated workflows (N8N, automated data pipelines) to optimize processes and eliminate manual intervention.
+                </p>
+              </div>
+            </div>
+
+            <!-- GitHub Foundations -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="timeline-date">February 2025</span>
+                <h3 class="timeline-title">GitHub Foundations Certification</h3>
+                <div class="timeline-subtitle">GitHub Inc.</div>
+                <p class="timeline-desc">
+                  Certified in Git version control, GitHub Actions workflows, branching strategies, code reviews, and collaborative development best practices.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Education Column -->
+        <div id="education">
+          <h2 class="timeline-column-title">
+            <span>🎓</span>
+            Education
+          </h2>
+          <div class="timeline-list">
+            <!-- B.Tech in AI-DS -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="timeline-date">June 2023 – Present</span>
+                <h3 class="timeline-title">Bachelor of Technology in AI & Data Science</h3>
+                <div class="timeline-subtitle">Hyderabad, India</div>
+                <p class="timeline-desc">
+                  <strong>Relevant Coursework:</strong> Java, C, DBMS, Python, Big Data, MySQL, Machine Learning, Deep Learning, Natural Language Processing.
+                </p>
+                <span class="gpa-badge">Cumulative GPA: 8.54 / 10.0</span>
+              </div>
+            </div>
+
+            <!-- Class 12 -->
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-card">
+                <span class="timeline-date">April 2021 – April 2023</span>
+                <h3 class="timeline-title">Class 12 (Senior Secondary)</h3>
+                <div class="timeline-subtitle">Hyderabad, India</div>
+                <p class="timeline-desc">
+                  <strong>Relevant Coursework:</strong> Linear Algebra, Calculus, Integration, Probability, and Statistics.
+                </p>
+                <span class="gpa-badge">Cumulative Score: 888 / 1000</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       CONTACT SECTION
+       ========================================================================= -->
+  <section class="contact" id="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-badge">Get in Touch</span>
+        <h2 class="section-title">Let's Connect</h2>
+        <p class="section-subtitle">Interested in collaborating or discussing full-time opportunities in AI/ML and software engineering? Reach out anytime!</p>
+      </div>
+
+      <div class="contact-grid">
+        <!-- Contact Details Cards -->
+        <div class="contact-info">
+          <!-- Email -->
+          <div class="contact-card">
+            <div class="contact-card-left">
+              <div class="contact-icon">✉️</div>
+              <div>
+                <div class="contact-label">Email</div>
+                <a href="mailto:likithmalapati@gmail.com" class="contact-value">likithmalapati@gmail.com</a>
+              </div>
+            </div>
+            <button class="copy-btn" data-copy="likithmalapati@gmail.com" title="Copy Email">Copy</button>
+          </div>
+
+          <!-- Phone -->
+          <div class="contact-card">
+            <div class="contact-card-left">
+              <div class="contact-icon">📞</div>
+              <div>
+                <div class="contact-label">Phone</div>
+                <a href="tel:+919441649333" class="contact-value">+91 944-164-9333</a>
+              </div>
+            </div>
+            <button class="copy-btn" data-copy="+919441649333" title="Copy Phone Number">Copy</button>
+          </div>
+
+          <!-- GitHub -->
+          <div class="contact-card">
+            <div class="contact-card-left">
+              <div class="contact-icon">🐙</div>
+              <div>
+                <div class="contact-label">GitHub</div>
+                <a href="https://github.com/Malapatilikith" target="_blank" rel="noopener noreferrer" class="contact-value">github.com/Malapatilikith</a>
+              </div>
+            </div>
+            <a href="https://github.com/Malapatilikith" target="_blank" rel="noopener noreferrer" class="copy-btn">Visit</a>
+          </div>
+
+          <!-- Location -->
+          <div class="contact-card">
+            <div class="contact-card-left">
+              <div class="contact-icon">📍</div>
+              <div>
+                <div class="contact-label">Location</div>
+                <span class="contact-value">Hyderabad, Telangana, India</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Interactive Contact Form -->
+        <div class="contact-form-container">
+          <form id="portfolio-contact-form">
+            <div id="form-alert" class="form-alert"></div>
+
+            <div class="form-group">
+              <label for="name" class="form-label">Your Name</label>
+              <input type="text" id="name" class="form-control" placeholder="e.g. Alex Johnson" required>
+            </div>
+
+            <div class="form-group">
+              <label for="email" class="form-label">Your Email</label>
+              <input type="email" id="email" class="form-control" placeholder="e.g. alex@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" id="subject" class="form-control" placeholder="Project collaboration / Role opportunity" required>
+            </div>
+
+            <div class="form-group">
+              <label for="message" class="form-label">Message</label>
+              <textarea id="message" class="form-control" rows="4" placeholder="Hello Likith, I would love to discuss..." required></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <span>Send Message</span>
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="22" y1="2" x2="11" y2="13"></line><polygon points="22 2 15 22 11 13 2 9 22 2"></polygon></svg>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- =========================================================================
+       FOOTER
+       ========================================================================= -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="brand-logo">
+        <div class="logo-icon">ML</div>
+        <span>Malapati Likith</span>
+      </div>
+      <div class="footer-credits">
+        Designed & Engineered for AI/ML Innovation &copy; 2026. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <button id="back-to-top" class="back-to-top" title="Scroll to top" aria-label="Scroll to top">
+    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="12" y1="19" x2="12" y2="5"></line><polyline points="5 12 12 5 19 12"></polyline></svg>
+  </button>
+
+  <!-- =========================================================================
+       MODAL: PHOTO MANAGER / UPLOADER
+       ========================================================================= -->
+  <div class="modal-overlay" id="photo-modal" role="dialog" aria-modal="true" aria-labelledby="modal-title">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3 class="modal-title" id="modal-title">Set Your Profile Photo</h3>
+        <button class="modal-close" id="modal-close" aria-label="Close dialog">&times;</button>
+      </div>
+
+      <div id="photo-status-msg" class="form-alert success" style="display: none; margin-bottom: 1rem;"></div>
+
+      <div class="upload-dropzone" id="upload-dropzone">
+        <div class="upload-icon">📸</div>
+        <h4>Click or Drag & Drop Photo Here</h4>
+        <p style="color: var(--text-secondary); font-size: 0.85rem; margin-top: 0.35rem;">
+          Select your photo (JPG, PNG, WebP). It will immediately preview and persist on your portfolio!
+        </p>
+        <input type="file" id="photo-file-input" accept="image/*" style="display: none;">
+      </div>
+
+      <div style="background: var(--bg-card); padding: 0.9rem; border-radius: var(--radius-sm); border: 1px solid var(--border-color); font-size: 0.82rem; color: var(--text-muted); line-height: 1.5;">
+        💡 <strong>Developer Tip:</strong> You can also copy your actual photo file into this project folder as <code>assets/profile.jpg</code>, and it will be loaded automatically!
+      </div>
+
+      <div class="modal-footer-actions">
+        <button type="button" class="btn btn-secondary btn-sm" id="reset-photo-btn">Reset to Default</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Custom Scripts -->
+  <script src="js/main.js"></script>
+</body>
+</html>
