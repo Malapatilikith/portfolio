@@ -27,7 +27,7 @@ function initTypewriter() {
     'AI & Data Science ',
     'Deep Learning & Natural Language Processing'
   ];
-
+ 
   let roleIndex = 0;
   let charIndex = 0;
   let isDeleting = false;
