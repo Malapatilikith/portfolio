@@ -22,11 +22,10 @@ function initTypewriter() {
   if (!element) return;
 
   const roles = [
+    'Java Full-Stack Developer',
     'Machine Learning Engineer',
-    'AI & Data Science Specialist',
-    'Full-Stack Python Developer',
-    'Deep Learning & NLP Enthusiast',
-    'AWS Certified AI Practitioner'
+    'AI & Data Science ',
+    'Deep Learning & Natural Language Processing'
   ];
 
   let roleIndex = 0;
